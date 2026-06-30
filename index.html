@@ -1,13 +1,205 @@
-<XXTYPE html>
-    <html>
-
-    ><head>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AGRINHO 2026</title>
-    <meta charset="utf -8"
->head>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        html{
+            scroll-behavior:smooth;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background:#f4f4f4;
+            color:#333;
+        }
+
+        header{
+            background:#2e7d32;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            margin-top:15px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        .banner{
+            background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+            url("campo-cidade.jpg") center/cover;
+            height:400px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            color:white;
+            padding:20px;
+        }
+
+        .banner h1{
+            font-size:45px;
+        }
+
+        section{
+            max-width:1000px;
+            margin:auto;
+            padding:50px 20px;
+        }
+
+        h2{
+            color:#2e7d32;
+            margin-bottom:20px;
+        }
+
+        .cards{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:20px;
+            margin-top:30px;
+        }
+
+        .card{
+            background:white;
+            border-radius:10px;
+            overflow:hidden;
+            box-shadow:0 5px 10px rgba(0,0,0,.15);
+        }
+
+        .card img{
+            width:100%;
+            height:180px;
+            object-fit:cover;
+        }
+
+        .card h3{
+            padding:15px;
+            color:#2e7d32;
+        }
+
+        .card p{
+            padding:0 15px 20px;
+        }
+
+        footer{
+            background:#2e7d32;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+
+        .credito{
+            background:#fff3cd;
+            border-left:5px solid #ffc107;
+            padding:20px;
+            border-radius:8px;
+            margin-top:30px;
+        }
+    </style>
+
+</head>
 <body>
-    <p> Mundo do Paraná </p>
-  </body>
 
+<header>
 
-    </html>
+<h1>AGRINHO 2026</h1>
+
+<p>Conectando o Campo e a Cidade</p>
+
+<nav>
+<a href="#sobre">Sobre</a>
+<a href="#beneficios">Benefícios</a>
+<a href="#imagens">Imagens</a>
+</nav>
+
+</header>
+
+<section class="banner">
+<div>
+<h1>Campo e Cidade caminham juntos.</h1>
+<p>O alimento, a tecnologia e as pessoas fazem parte da mesma história.</p>
+</div>
+</section>
+
+<section id="sobre">
+
+<h2>Sobre o Projeto</h2>
+
+<p>
+O campo produz alimentos, matérias-primas e diversos recursos importantes para a vida das pessoas. A cidade transforma esses produtos, desenvolve tecnologias e oferece serviços que ajudam no desenvolvimento da sociedade.
+</p>
+
+<p>
+Essa relação mostra que campo e cidade dependem um do outro. Quando trabalham juntos, promovem qualidade de vida, desenvolvimento econômico e sustentabilidade.
+</p>
+
+</section>
+
+<section id="beneficios">
+
+<h2>Benefícios dessa conexão</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="agricultura.jpg" alt="Agricultura">
+<h3>Produção de Alimentos</h3>
+<p>O trabalho no campo abastece mercados, escolas e famílias de todo o país.</p>
+</div>
+
+<div class="card">
+<img src="tecnologia.jpg" alt="Tecnologia">
+<h3>Tecnologia</h3>
+<p>A inovação ajuda produtores rurais a aumentar a produtividade e preservar o meio ambiente.</p>
+</div>
+
+<div class="card">
+<img src="cidade.jpg" alt="Cidade">
+<h3>Cooperação</h3>
+<p>Campo e cidade crescem juntos quando existe respeito, parceria e consumo consciente.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="imagens">
+
+<h2>Sobre as Imagens</h2>
+
+<div class="credito">
+
+<p><strong>Observação:</strong></p>
+
+<p>
+As imagens utilizadas neste projeto podem ser produzidas com ferramentas de Inteligência Artificial para representar situações relacionadas ao tema do AGRINHO 2026. Elas possuem finalidade educativa e ilustrativa, ajudando na compreensão do conteúdo apresentado.
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>Projeto desenvolvido para o AGRINHO 2026.</p>
+
+</footer>
+
+</body>
+</html>
